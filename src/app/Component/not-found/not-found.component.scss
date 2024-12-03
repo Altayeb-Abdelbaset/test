@@ -1,0 +1,33 @@
+.wrapper {
+    background-image: url(../../../assets/404.png);
+    background-position: center;
+    background-size: cover;
+    width: 100;
+    height: 50vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.container-fluid
+{
+    background-color: rgba(46, 46, 46, 0.397);
+    width: 100;
+    height: 50vh;
+}
+.error-box-inner h2
+{
+ font-size: 12rem;
+ font-weight: 500;
+}
+.error-box-inner h4
+{
+ font-size: 3rem;
+ font-weight: 100;
+}
+.error-box-inner a
+{
+ font-size: 2rem;
+ font-weight: 500;
+ color: var(--main-color);
+}

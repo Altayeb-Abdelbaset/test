@@ -1,0 +1,33 @@
+@keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  .marquee{
+      background-color: #d28009;
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+  
+    span{
+      text-transform: uppercase;
+      will-change: transform;
+      transform: translateX(0);
+      white-space: nowrap;
+      animation: marquee 15s  linear infinite;
+      padding: 20px;
+      // Extra Styling
+      font-size: 1rem;
+      font-weight: 900;
+      color: #fff;
+    }
+  }
+  
+  
+  

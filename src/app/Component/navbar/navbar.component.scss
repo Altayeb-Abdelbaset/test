@@ -1,0 +1,25 @@
+// .nav-link
+// {
+//     font-size: 1rem;
+// }
+// .navbar-brand
+// {
+//     width: 35%;
+// }
+// .navbar img{
+//     width: 15%;
+// }
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    .tex {
+        text-align: center !important;
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    .tex a:hover {
+        color: #eee;
+        background-color: rgba(54, 54, 54, 0.295);
+        border-radius: 15px;
+    }
+}
